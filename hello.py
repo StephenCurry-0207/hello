@@ -1,2 +1,2 @@
 if __name__ == "__main__":
-    print("我是汉子")
+    print("我想回家")
