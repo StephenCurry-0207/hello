@@ -1,0 +1,17 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: "make two tasks "
+    command: 
+      echo "第一行"
+      echo "第二行"
+      pwd
+      exit
+  - name: "start our db and do some test"
+    command: |
+      /bin/bash/worksapce/hello/satrt_db.sh
+      exit
+vscode:
+  extensions:
+    - ms-python.python
